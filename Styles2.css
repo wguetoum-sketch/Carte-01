@@ -1,0 +1,29 @@
+/* Réinitialisation des styles par défaut du navigateur */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/* Styles pour le body */
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ color: #333;
+ background-color: #f9f9f9;
+}
+/* Styles pour les éléments */
+header, .bienvenue, .competences, .contact, footer {
+ background-color: #03A9F4;
+ color: #fff;
+ padding: 1em;
+ text-align: center;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Ajoutons une transition pour les éléments */
+header, .bienvenue, .competences, .contact, footer {
+ transition: all 0.3s ease-in-out;
+}
+/* Ajoutons un effet de scale lors du survol */
+header:hover, .bienvenue:hover, .competences:hover, .contact:hover, footer:hover {
+ transform:scale(1.1);
